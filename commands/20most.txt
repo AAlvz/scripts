@@ -1,0 +1,60 @@
+ll
+ 17.2898594077 %
+
+cd ..
+ 3.52976368531 %
+
+git pull
+ 2.00418785522 %
+
+ls -la
+ 1.40592282381 %
+
+~/Documentos/jkl/jkl/jkl 
+ 1.37600957224 %
+
+cd -
+ 1.3161830691 %
+
+git push
+ 1.28626981753 %
+
+cd /tmp/ramdisk1G/ljzac.github.io/
+ 1.0170505534 %
+
+find _posts/ -type f | wc -l
+ 0.957224050254 %
+
+ssh ubuntu@ec2-54-235-20-128.compute-1.amazonaws.com
+ 0.747831289261 %
+
+cd db_backup/
+ 0.68800478612 %
+
+php migracion.php 
+ 0.65809153455 %
+
+emacs
+ 0.628178282979 %
+
+cd Documentos/compilacion/compilacion/scripts/
+ 0.628178282979 %
+
+git status
+ 0.598265031409 %
+
+cd scripts/
+ 0.598265031409 %
+
+vagrant ssh
+ 0.598265031409 %
+
+vagrant up
+ 0.598265031409 %
+
+emacs -nw
+ 0.568351779838 %
+
+ssh ljzbot@142.4.200.84
+ 0.538438528268 %
+

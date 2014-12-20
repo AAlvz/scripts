@@ -1,0 +1,147 @@
+sudo su 
+ 0.0298864315601 %
+
+pip install pymongo
+ 0.0298864315601 %
+
+git commit -am "autor sin link"
+ 0.0298864315601 %
+
+echo netstat --tcp --listening | wc -l
+ 0.0298864315601 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 3p 
+ 0.0298864315601 %
+
+shutdown -h 0
+ 0.0298864315601 %
+
+vagrant box add http://goo.gl/8kWkm
+ 0.0298864315601 %
+
+find . -type f | wc -l
+ 0.0298864315601 %
+
+httpd 
+ 0.0298864315601 %
+
+vagrant package --output chefClient.box
+ 0.0298864315601 %
+
+sudo apt-get install oracle-java7-installer 
+ 0.0298864315601 %
+
+touch rsync/otroalgo
+ 0.0298864315601 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -p {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0298864315601 %
+
+cat .bashc
+ 0.0298864315601 %
+
+git statys
+ 0.0298864315601 %
+
+cd ../firstChef/
+ 0.0298864315601 %
+
+touch foursquare.html
+ 0.0298864315601 %
+
+vagrant destroy ubuntuCheffPuppet 
+ 0.0298864315601 %
+
+echo "va para la $prueba ." 1>$prueba
+ 0.0298864315601 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -R {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0298864315601 %
+
+print "ip mas activa: " | cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0298864315601 %
+
+emacs creaCarpetas.sh
+ 0.0298864315601 %
+
+ping web.twcenter.mx
+ 0.0298864315601 %
+
+git commit -am "using concurr"
+ 0.0298864315601 %
+
+cat autores.txt | awk -F: '{ print $1, $2, $3 }' | uniq
+ 0.0298864315601 %
+
+find _posts/ -type f | xargs grep "imgur"
+ 0.0298864315601 %
+
+find Descargas/ "django" | grep django
+ 0.0298864315601 %
+
+'
+ 0.0298864315601 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 1p 
+ 0.0298864315601 %
+
+scp uploadToImgur.py imgur.sql ec2-54-235-20-128.compute-1.amazonaws.com
+ 0.0298864315601 %
+
+unzip ChromeOS*.zip
+ 0.0298864315601 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"', '.' | awk -F: '{ print $2, $3, $4}' | sort | uniq -u > autores.txt
+ 0.0298864315601 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0298864315601 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | awk 'BEGIN { FS = "." } ; { print $2 }
+ 0.0298864315601 %
+
+git commit -m "Lista simple =) "
+ 0.0298864315601 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}'
+ 0.0298864315601 %
+
+rm -r themes/
+ 0.0298864315601 %
+
+ll _posts/2012
+ 0.0298864315601 %
+
+vagrant down
+ 0.0298864315601 %
+
+pip install matplotlib
+ 0.0298864315601 %
+
+sudo apt-get install oracle-java7-installer -y
+ 0.0298864315601 %
+
+ps -al
+ 0.0298864315601 %
+
+ñ
+ 0.0298864315601 %
+
+cd virtualbox/
+ 0.0298864315601 %
+
+mysql -u alfonso -p ljz_db < jos_content_octubre_2012.sql
+ 0.0298864315601 %
+
+rm .emacs.d
+ 0.0298864315601 %
+
+netstat -lt; quit | wc-l
+ 0.0298864315601 %
+
+find _posts/ -type f >> notas de prueba.txt
+ 0.0298864315601 %
+
+find Descargas/ -f "django"
+ 0.0298864315601 %
+

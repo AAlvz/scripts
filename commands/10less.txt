@@ -1,0 +1,27 @@
+sudo su 
+ 0.0299580587178 %
+
+pip install pymongo
+ 0.0299580587178 %
+
+git commit -am "autor sin link"
+ 0.0299580587178 %
+
+echo netstat --tcp --listening | wc -l
+ 0.0299580587178 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 3p 
+ 0.0299580587178 %
+
+shutdown -h 0
+ 0.0299580587178 %
+
+vagrant box add http://goo.gl/8kWkm
+ 0.0299580587178 %
+
+find . -type f | wc -l
+ 0.0299580587178 %
+
+httpd 
+ 0.0299580587178 %
+

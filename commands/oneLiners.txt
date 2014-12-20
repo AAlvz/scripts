@@ -1,0 +1,348 @@
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 3p 
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -p {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -R {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295595625185 %
+
+print "ip mas activa: " | cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 1p 
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"', '.' | awk -F: '{ print $2, $3, $4}' | sort | uniq -u > autores.txt
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | awk 'BEGIN { FS = "." } ; { print $2 }
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk .F '{ print $2, $3, $4}'
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk -F- '{ print $2, $3, $4}'
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep ".imgur." -print0 | xargs -0 /bin/cp -r /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+mkdir ~/Escritorio/Codigo\ parriba/Codigo parriba | cp -r AVL/ ~/Escritorio/Codigo\ parriba/AVL/
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'NR %2 == 0 {print $1}' | sort -nr
+ 0.0295595625185 %
+
+$ type foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep "imgur" | cp /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "] " } ; { print $1 }'
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "] " } ; { print $1, $3 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'NR == 1 {print $1}' | sort -nr
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -d {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[", "]" } ; { print $1, $2, $3, $8 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[" } ; { print $1, $2, $3, $8 }'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | xargs -I{} cat {} | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[" } ; print $1, $2, $3, $8}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; $VAR1=cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[", "]" } ; print $1, $2, $3, $8}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'NR == 3 {print $1}' | sort -nr
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk '{$1}' 
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -r {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 1p | awk {'print $2'} | cut -d '.' -f2
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' ; echo "Second ip set: " ; cat /var/log/apache2/access.log.1 | awk ' NR == 1 {print $1}' | uniq -c | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2} ; BEGIN { FS = "." } ; { print $2 }' 
+ 0.0295595625185 %
+
+find | xargs grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq -u > autores.txt
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk '{ print $2}' '{ print $3 }' '{ print $4 }'
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} mkdir -p \`dirname '{}'\` && cp {} /tmp/ramdisk1G/ljzac.github.io/{} 
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'NR == 3 {print $1}'
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk -F: '{ print $2, $3, $4}' | uniq
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "] " } ; { print $1, $3 }' | sort -k3 -nr 
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; VAR1 = cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; $VAR1= cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -nr | awk ' NR == 0 {print $1}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | xargs -I{} awk {} 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+echo "todas las ips: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "Cuarta ip mas activa: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "] " } ; { print $1, $3 }' | sort -k3 -n 
+ 0.0295595625185 %
+
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk '{print $8}' | uniq -c | sort -n
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[", "]" } ; { print $1, $2, $3, $8}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | echo "ip mas activa: " | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -nr | awk ' NR == 1 {print $1}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' 'BEGIN { FS = "." } ; { print $2 }' 
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' ; echo "segunda parte del ip" ; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -nr | awk ' NR == 4 {print $1}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk ' NR == 4 {print $1}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk '{print $1}' | sort 
+ 0.0295595625185 %
+
+print "ip mas activa: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -nr | awk ' NR == 2 {print $1}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' ; echo "Second ip set: " ; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | uniq | sort
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep diff 'author:' | awk -F: '{ print $2, $3, $4}'
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq > autores.txt
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep "imgur" | xargs -I{} cp {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep ".imgur." | xargs -0I{} cp {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | xargs -I{} echo {} | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'NR %2 ==0 {print $1}' | sort -nr
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk 'NR == 0 {print $1}' | sort -nr
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort -u
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk -F: '{ print $2, $3, $4}'
+ 0.0295595625185 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 5p | awk {'print $2'}
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk -F '{ print $2, $3, $4}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep 'favicon' | awk '{print $1, $8}'
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} mkdir -p \`dirname '{}'\` && cp '{}' /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk -F: '{ print $2, $3, $4}' | sort | uniq
+ 0.0295595625185 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 4p 
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep ".imgur." | xargs -I{} cp {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk '{ print $2 $3 $4 }' 
+ 0.0295595625185 %
+
+echo "ip mas activa: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+echo "todas las ips: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "ip mas activa: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk -F: '{ print $2, $3, $4}' | tr -d '"' | sort | uniq
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | awk '{ print $2 ' '$3 ' '$4 }' 
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l "ljz.mx/images" | xargs -I{} rm {} 
+ 0.0295595625185 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 4p | awk {'print $2'} | cut -d '.' -f2
+ 0.0295595625185 %
+
+echo "ip mas activa: " | cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' 
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep ".imgur." | xargs -0 /bin/cp -r /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq | uniq
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq | print uniq
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "] " } ; { print $1, $3 }' | sort -k3 -n | uniq -c 
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -R {} /tmp/ramdisk1G/ljzac.github.io/
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep ".imgur." -print0 | xargs cp -r -0 /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+find _posts/ -type f | xargs grep -l "imgur" | xargs -I{} cp {} /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | awk 'BEGIN { FS = "." } ; { print $1 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk '{print $1}' | sort -n
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk '{print $1}'
+ 0.0295595625185 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk '{if(length($1) > max) print $1}' | sort -nr
+ 0.0295595625185 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | tr -d '.' | awk -F: '{ print $2, $3, $4}' | sort | uniq -u > autores.txt
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[]" } ; { print $1, $2, $3, $8 }'
+ 0.0295595625185 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk 'BEGIN { FS = "[, ]" } ; print $1, $2, $3, $8}'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | xargs -I{} awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | uniq -c | awk '{print $1}' ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295595625185 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 1p | awk {'print $2'}
+ 0.0295595625185 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2} BEGIN { FS = "." } ; { print $2 }' 
+ 0.0591191250369 %
+
+type algo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+ 0.0591191250369 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk '{print $1}' | sort -nr
+ 0.0591191250369 %
+
+cat /var/log/apache2/error.log.1 | grep "favicon" | awk '{print $1, $8}'
+ 0.0591191250369 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq -u
+ 0.0591191250369 %
+
+$ curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+ 0.0591191250369 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 5p | awk {'print $2'} | cut -d '.' -f2
+ 0.0591191250369 %
+
+cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | awk '{print $1}'
+ 0.0591191250369 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq
+ 0.0591191250369 %
+
+type java >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+ 0.0886786875554 %
+
+find | xargs -I{} cat {}  | grep 'author:' | tr -d '"' | awk -F: '{ print $2, $3, $4}' | sort | uniq -u > autores.txt
+ 0.0886786875554 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0886786875554 %
+
+echo "Every ip and times loged: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c ; echo "4th more active ip: "; cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}' | awk 'BEGIN { FS = "." } ; { print $2 }'
+ 0.0886786875554 %
+
+curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+ 0.325155187703 %
+

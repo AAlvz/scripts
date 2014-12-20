@@ -1,0 +1,75 @@
+ll
+ 17.3707533235 %
+
+cd ..
+ 3.48596750369 %
+
+git pull
+ 1.97932053176 %
+
+ls -la
+ 1.38847858198 %
+
+~/Documentos/jkl/jkl/jkl 
+ 1.35893648449 %
+
+cd -
+ 1.329394387 %
+
+git push
+ 1.27031019202 %
+
+cd /tmp/ramdisk1G/ljzac.github.io/
+ 1.00443131462 %
+
+find _posts/ -type f | wc -l
+ 0.945347119645 %
+
+ssh ubuntu@ec2-54-235-20-128.compute-1.amazonaws.com
+ 0.738552437223 %
+
+cd db_backup/
+ 0.679468242245 %
+
+php migracion.php 
+ 0.649926144756 %
+
+emacs
+ 0.620384047267 %
+
+cd Documentos/compilacion/compilacion/scripts/
+ 0.620384047267 %
+
+git status
+ 0.590841949778 %
+
+cd scripts/
+ 0.590841949778 %
+
+vagrant ssh
+ 0.590841949778 %
+
+vagrant up
+ 0.590841949778 %
+
+emacs -nw
+ 0.56129985229 %
+
+ssh ljzbot@142.4.200.84
+ 0.531757754801 %
+
+cd Documentos/compilacion/compilacion/
+ 0.531757754801 %
+
+sudo ./1ramdisk.sh mount
+ 0.472673559823 %
+
+./2cloneljzac.sh ssh
+ 0.472673559823 %
+
+htop
+ 0.443131462334 %
+
+./compressJS.sh
+ 0.443131462334 %
+

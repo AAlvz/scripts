@@ -1,0 +1,150 @@
+ll
+ 17.2795216741 %
+
+cd ..
+ 3.52765321375 %
+
+git pull
+ 2.00298953662 %
+
+ls -la
+ 1.40508221226 %
+
+~/Documentos/jkl/jkl/jkl 
+ 1.37518684604 %
+
+cd -
+ 1.3153961136 %
+
+git push
+ 1.28550074738 %
+
+cd /tmp/ramdisk1G/ljzac.github.io/
+ 1.01644245142 %
+
+find _posts/ -type f | wc -l
+ 0.956651718984 %
+
+ssh ubuntu@ec2-54-235-20-128.compute-1.amazonaws.com
+ 0.747384155456 %
+
+cd db_backup/
+ 0.687593423019 %
+
+php migracion.php 
+ 0.657698056801 %
+
+emacs
+ 0.627802690583 %
+
+cd Documentos/compilacion/compilacion/scripts/
+ 0.627802690583 %
+
+git status
+ 0.597907324365 %
+
+cd scripts/
+ 0.597907324365 %
+
+vagrant ssh
+ 0.597907324365 %
+
+vagrant up
+ 0.597907324365 %
+
+emacs -nw
+ 0.568011958146 %
+
+ssh ljzbot@142.4.200.84
+ 0.538116591928 %
+
+cd Documentos/compilacion/compilacion/
+ 0.538116591928 %
+
+sudo ./1ramdisk.sh mount
+ 0.478325859492 %
+
+./2cloneljzac.sh ssh
+ 0.478325859492 %
+
+htop
+ 0.448430493274 %
+
+./compressJS.sh
+ 0.448430493274 %
+
+cd ~
+ 0.448430493274 %
+
+ifconfig 
+ 0.448430493274 %
+
+~/Documentos/compilacion/compilacion/jkl 
+ 0.418535127055 %
+
+cd Documentos/
+ 0.418535127055 %
+
+php sustitucionImgurLink.php
+ 0.418535127055 %
+
+cd _posts/
+ 0.418535127055 %
+
+cd Documentos/compilacion/compilacion/db_backup/
+ 0.388639760837 %
+
+ll _posts/
+ 0.388639760837 %
+
+cd Documentos/ljzac/ljzac.github.io/
+ 0.358744394619 %
+
+cp -r _posts/* /tmp/ramdisk1G/ljzac.github.io/_posts/
+ 0.358744394619 %
+
+curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+ 0.328849028401 %
+
+cd ljzac.github.io/
+ 0.328849028401 %
+
+ssh ubuntu@174.129.237.23
+ 0.328849028401 %
+
+rm -rf .emacs.d
+ 0.328849028401 %
+
+git add .
+ 0.298953662182 %
+
+cd /etc/apache2/
+ 0.298953662182 %
+
+./2cloneljzac.sh 
+ 0.298953662182 %
+
+sudo ./1ramdisk.sh 
+ 0.298953662182 %
+
+sudo apt-get remove golang-go
+ 0.269058295964 %
+
+cd compilacion/
+ 0.269058295964 %
+
+rm -rf _posts/*
+ 0.269058295964 %
+
+cd mailgun/
+ 0.239162929746 %
+
+rm -r _posts/*
+ 0.239162929746 %
+
+python
+ 0.239162929746 %
+
+php traductora_varExport.php 
+ 0.209267563528 %
+

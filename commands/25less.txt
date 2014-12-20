@@ -1,0 +1,72 @@
+sudo su 
+ 0.0295770482106 %
+
+pip install pymongo
+ 0.0295770482106 %
+
+git commit -am "autor sin link"
+ 0.0295770482106 %
+
+echo netstat --tcp --listening | wc -l
+ 0.0295770482106 %
+
+sudo cat /var/log/apache2/access.log.1 |awk '{print $1}' |sort -n| uniq -c | sort -n | head | sed -n 3p 
+ 0.0295770482106 %
+
+shutdown -h 0
+ 0.0295770482106 %
+
+vagrant box add http://goo.gl/8kWkm
+ 0.0295770482106 %
+
+cat 25less.txt 
+ 0.0295770482106 %
+
+find . -type f | wc -l
+ 0.0295770482106 %
+
+httpd 
+ 0.0295770482106 %
+
+vagrant package --output chefClient.box
+ 0.0295770482106 %
+
+sudo apt-get install oracle-java7-installer 
+ 0.0295770482106 %
+
+touch rsync/otroalgo
+ 0.0295770482106 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -p {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295770482106 %
+
+cat .bashc
+ 0.0295770482106 %
+
+git statys
+ 0.0295770482106 %
+
+cd ../firstChef/
+ 0.0295770482106 %
+
+touch foursquare.html
+ 0.0295770482106 %
+
+man wget
+ 0.0295770482106 %
+
+vagrant destroy ubuntuCheffPuppet 
+ 0.0295770482106 %
+
+echo "va para la $prueba ." 1>$prueba
+ 0.0295770482106 %
+
+cat api.php?api.php?api_id=b061bebbb597c7dc564e
+ 0.0295770482106 %
+
+find _posts/ -type f | xargs grep -l ".imgur." | xargs -I{} cp -R {} /tmp/ramdisk1G/ljzac.github.io/{}
+ 0.0295770482106 %
+
+print "ip mas activa: " | cat /var/log/apache2/access.log.1 | awk '{print $1}' | uniq -c | sort -n | awk -F: ' NR == 4 {print $1, $2}'
+ 0.0295770482106 %
+

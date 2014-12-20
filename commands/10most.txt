@@ -1,0 +1,30 @@
+ll
+ 17.3002095181 %
+
+cd ..
+ 3.53187668363 %
+
+git pull
+ 2.0053876085 %
+
+ls -la
+ 1.40676444178 %
+
+~/Documentos/jkl/jkl/jkl 
+ 1.37683328345 %
+
+cd -
+ 1.31697096678 %
+
+git push
+ 1.28703980844 %
+
+cd /tmp/ramdisk1G/ljzac.github.io/
+ 1.01765938342 %
+
+find _posts/ -type f | wc -l
+ 0.957797066746 %
+
+ssh ubuntu@ec2-54-235-20-128.compute-1.amazonaws.com
+ 0.748278958396 %
+
