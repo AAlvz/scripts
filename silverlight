@@ -1,0 +1,2 @@
+#!/bin/bash
+pipelight-plugin --$1 silverlight5.1
