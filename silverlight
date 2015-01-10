@@ -1,2 +1,11 @@
 #!/bin/bash
+
+if [[ $# > 1 || $# == 0 ]]
+    then
+    echo "You are not using the script the way you should"
+    echo "Use 'silverlight ['enable' | 'disable']' "
+    echo " =)"
+    exit
+fi
+
 pipelight-plugin --$1 silverlight5.1
