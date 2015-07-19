@@ -1,0 +1,4 @@
+chmod 4750 /bin/loadkeys
+groupadd loadkeys #create group
+chgrp loadkeys /bin/loadkeys #add file to gropu
+gpasswd -a user loadkeys #add user to group
