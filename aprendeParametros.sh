@@ -135,3 +135,39 @@ txtwht=$(tput setaf 7) # White
 ##############
 # End Colors #
 ##############
+
+######################
+#
+#  FILE TEST OPERATORS
+#  http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html
+#
+######################
+
+if [ -r $file ]
+then
+    echo "File has read access"
+else
+    echo "File does not have read access"
+fi
+
+# [ -a FILE ]True if FILE exists.
+# [ -d FILE ]True if FILE exists and is a directory.
+# [ -e FILE ]True if FILE exists.
+# [ -f FILE ]True if FILE exists and is a regular file.
+# [ -h FILE ]True if FILE exists and is a symbolic link.
+# [ -r FILE ]True if FILE exists and is readable.
+# [ -s FILE ]True if FILE exists and has a size greater than zero.
+# [ -u FILE ]True if FILE exists and its SUID (set user ID) bit is set.
+# [ -w FILE ]True if FILE exists and is writable.
+# [ -x FILE ]True if FILE exists and is executable.
+# [ -O FILE ]True if FILE exists and is owned by the effective user ID.
+# [ -G FILE ]True if FILE exists and is owned by the effective group ID.
+# [ -L FILE ]True if FILE exists and is a symbolic link.
+# [ -N FILE ]True if FILE exists and has been modified since it was last read.
+# [ -S FILE ]True if FILE exists and is a socket.
+
+######################
+#
+# END OF FILE TEST OPERATORS
+#
+######################
