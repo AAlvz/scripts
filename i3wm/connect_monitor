@@ -1,1 +1,2 @@
 xrandr --output VGA1 --auto --left-of LVDS1
+#xrandr --output LVDS1 --auto --pos 0x1000 --output VGA1 --auto --pos 1366x0
