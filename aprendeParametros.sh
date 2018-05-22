@@ -171,3 +171,22 @@ fi
 # END OF FILE TEST OPERATORS
 #
 ######################
+
+
+#################
+#
+# . LOOPS
+#
+###################
+
+#Print from 1 to 10
+
+#for i in $(seq 5)
+#do
+#  echo "Welcome $i times"
+#done
+
+#for ((a=1; a <= 5 ; a++))
+#do
+#   echo "Welcome $a times."
+#done
